@@ -4,6 +4,7 @@ let circumference = 0
 let radius = 0
 let result = 0
 let answer = 0
+let square = 0
 
 document.getElementById('button').addEventListener('click', funk)
 
@@ -11,10 +12,11 @@ function funk () {
 	diameter = document.getElementById('D').value
 	diameter = parseInt(diameter)
   circumference = diameter * Math.PI
-	document.getElementById('C-1').innerHTML = circumference
+	document.getElementById('C-1').innerHTML = circumference 
   radius = diameter / 2
   result = radius * radius
   answer = Math.PI * result
-	document.getElementById('A-1').innerHTML = answer
-
+  document.getElementById('A-1').innerHTML
+	square = document.getElementById('A-1').innerHTML
+	document.getElementById('A-1').innerHTML = answer + '<sup>2</sup>'
 }

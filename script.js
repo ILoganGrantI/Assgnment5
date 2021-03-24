@@ -12,11 +12,11 @@ function funk () {
 	diameter = document.getElementById('D').value
 	diameter = parseInt(diameter)
   circumference = diameter * Math.PI
-	document.getElementById('C-1').innerHTML = circumference 
+	document.getElementById('c-1').innerHTML = circumference 
   radius = diameter / 2
   result = radius * radius
   answer = Math.PI * result
-  document.getElementById('A-1').innerHTML
-	square = document.getElementById('A-1').innerHTML
-	document.getElementById('A-1').innerHTML = answer + '<sup>2</sup>'
+  document.getElementById('a-1').innerHTML
+	square = document.getElementById('a-1').innerHTML
+	document.getElementById('a-1').innerHTML = answer + '<sup>2</sup>'
 }
